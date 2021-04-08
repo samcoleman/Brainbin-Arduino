@@ -8,7 +8,7 @@ int sweepAngle  = abs(openAngle - closedAngle);
 
 int servoPin = 9; // PWM pin of arduino servo is connected to
 
-int sweepSpeed = 85;                              // (Unit Deg/s)
+int sweepSpeed = 65;                              // (Unit Deg/s)
 int sweepDelay = 1000 / sweepSpeed;               // (Unit ms)
 int sweepTime  = sweepAngle*sweepDelay;           // (Unit ms)
 
